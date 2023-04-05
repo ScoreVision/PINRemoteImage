@@ -9,7 +9,7 @@
 
 Pod::Spec.new do |s|
   s.name             = "PINRemoteImage"
-  s.version          = "3.0.3"
+  s.version          = "3.0.4"
   s.summary          = "A thread safe, performant, feature rich image fetcher"
   s.homepage         = "https://github.com/pinterest/PINRemoteImage"
   s.license          = 'Apache 2.0'
@@ -18,9 +18,9 @@ Pod::Spec.new do |s|
   s.prefix_header_file = false
   # s.social_media_url = 'https://twitter.com/garrettmoon'
 
-  ios_deployment = "8.0"
-  tvos_deployment = "9.0"
-  osx_deployment = "10.11"
+  ios_deployment = "11.0"
+  tvos_deployment = "11.0"
+  osx_deployment = "10.13"
   s.ios.deployment_target = ios_deployment
   s.tvos.deployment_target = tvos_deployment
   s.requires_arc = true
